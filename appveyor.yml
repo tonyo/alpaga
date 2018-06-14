@@ -1,8 +1,4 @@
 ---
-branches:
-  only:
-    - master
-
 environment:
   matrix:
     - var_first: 1
