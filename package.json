@@ -1,0 +1,22 @@
+{
+  "name": "@tonyo/alpaga",
+  "version": "0.1.1",
+  "description": "Test package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonyo/alpaga.git"
+  },
+  "keywords": [
+    "alpaca"
+  ],
+  "author": "Anton Ovchinnikov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonyo/alpaga/issues"
+  },
+  "homepage": "https://github.com/tonyo/alpaga#readme"
+}
