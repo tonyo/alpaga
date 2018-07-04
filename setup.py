@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = 'alpaga',
-    version = '0.1.2',
+    version = '0.1.3',
     url = 'https://github.com/tonyo/alpaga/',
     author = 'Anton Ovchinnikov',
     author_email = 'test-pypi-alpaga@tonyo.info',

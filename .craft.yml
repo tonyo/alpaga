@@ -1,0 +1,6 @@
+---
+github:
+  owner: tonyo
+  repo: alpaga
+targets:
+  - name: pypi
