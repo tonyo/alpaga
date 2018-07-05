@@ -1,0 +1,11 @@
+---
+environment:
+  matrix:
+    - var_first: 1
+      var_second: hello
+    - var_first: 2
+      var_second: yoyo
+
+build_script:
+  - set
+  - dir
