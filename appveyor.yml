@@ -1,8 +1,4 @@
 ---
-branches:
-  only:
-    - master
-
 environment:
   matrix:
     - var_first: 1
@@ -11,5 +7,6 @@ environment:
       var_second: yoyo
 
 build_script:
+  - C:\MinGW\bin\mingw32-make all
   - set
   - dir
