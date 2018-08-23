@@ -1,0 +1,12 @@
+---
+language: generic
+script:
+  - echo 123
+
+after_script:
+  - echo after_script
+
+after_success:
+  - echo after_success
+  - travis_terminate 1
+  - echo done2
