@@ -1,0 +1,8 @@
+*.bak
+target/
+dist/
+*.nupkg
+bin/Debug/
+obj/Debug/
+*.dll
+*.egg-info/

@@ -1,0 +1,6 @@
+[package]
+name = "alpaga"
+version = "0.1.0"
+authors = ["Anton Ovchinnikov <anton@tonyo.info>"]
+
+[dependencies]
