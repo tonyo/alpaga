@@ -1,6 +1,9 @@
 [package]
-name = "alpaga"
+name = "alpaga-test"
 version = "0.1.0"
 authors = ["Anton Ovchinnikov <anton@tonyo.info>"]
+description = "Crate for testing purposes"
+homepage = "https://github.com/tonyo/alpaga/"
+license = "MIT"
 
 [dependencies]
