@@ -13,4 +13,8 @@ matrix:
 
     - name: "build: Windows x86_64"
       os: windows
-      language: rust
+      language: python
+      install:
+        - wget https://github.com/coreybutler/nvm-windows/releases/download/1.1.7/nvm-noinstall.zip
+        - unzip nvm-noinstall.zip
+        - nvm.exe
