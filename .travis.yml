@@ -16,5 +16,5 @@ matrix:
       language: shell
       install:
         - wget https://nodejs.org/dist/v10.15.0/node-v10.15.0-win-x86.zip
-        - unzip node-v10.15.0-win-x86.zip -d nodejs
-        - ./nodejs/npm
+        - unzip node-v10.15.0-win-x86.zip 
+        - ./node-v10.15.0-win-x86/npm
