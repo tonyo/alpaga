@@ -17,4 +17,4 @@ matrix:
       install:
         - wget https://github.com/coreybutler/nvm-windows/releases/download/1.1.7/nvm-noinstall.zip
         - unzip nvm-noinstall.zip
-        - nvm.exe
+        - ./nvm.exe
