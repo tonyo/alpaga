@@ -19,3 +19,4 @@ matrix:
         - unzip node-v10.15.0-win-x86.zip 
         - export PATH=$PATH:$PWD/node-v10.15.0-win-x86
         - npm install -g @zeus-ci/cli
+        - zeus upload
