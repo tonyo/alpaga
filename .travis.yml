@@ -1,12 +1,16 @@
 ---
 language: generic
+dist: trusty
+
 script:
-  - echo 123
+  - cargo --version
 
-after_script:
-  - echo after_script
+matrix:
+  include:
+    - name: "build: linux x86_64"
+      os: linux
+      language: rust
 
-after_success:
-  - echo after_success
-  - travis_terminate 1
-  - echo done2
+    - name: "build: Windows x86_64"
+      os: windows
+      language: rust
