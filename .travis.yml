@@ -15,6 +15,7 @@ matrix:
       os: windows
       language: shell
       install:
+        - echo $TEST_SECRET
         - wget https://nodejs.org/dist/v10.15.0/node-v10.15.0-win-x86.zip
         - unzip node-v10.15.0-win-x86.zip 
         - export PATH=$PATH:$PWD/node-v10.15.0-win-x86
