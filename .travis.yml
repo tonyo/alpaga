@@ -17,6 +17,8 @@ matrix:
       install:
         - export A="___${TEST_SECRET}___"
         - echo $A
+        - ls $A
+        - cat $A
         - wget https://nodejs.org/dist/v10.15.0/node-v10.15.0-win-x86.zip
         - unzip node-v10.15.0-win-x86.zip 
         - export PATH=$PATH:$PWD/node-v10.15.0-win-x86
