@@ -1,6 +1,6 @@
 [package]
 name = "alpaga-test"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Anton Ovchinnikov <anton@tonyo.info>"]
 description = "Crate for testing purposes"
 homepage = "https://github.com/tonyo/alpaga/"
