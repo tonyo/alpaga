@@ -2,5 +2,10 @@
 github:
   owner: tonyo
   repo: alpaga
+preReleaseCommand: "./bump-version.sh"
 targets:
-  - name: pypi
+  - name: github
+  - name: github
+    tagPrefix: foo/
+  - name: github
+    tagPrefix: bar/
