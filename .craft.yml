@@ -2,10 +2,12 @@
 github:
   owner: tonyo
   repo: alpaga
-preReleaseCommand: "./bump-version.sh"
+artifactProvider:
+  name: none
 targets:
   - name: github
+    tagOnly: true
+    tagPrefix: 'test/'
   - name: github
-    tagPrefix: foo/
-  - name: github
-    tagPrefix: bar/
+    tagOnly: true
+    tagPrefix: 'test/bla/'
