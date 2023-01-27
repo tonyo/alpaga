@@ -6,10 +6,6 @@ artifactProvider:
   name: none
 targets:
   - name: github
-    id: root
+    id: testmod
     tagOnly: true
-    tagPrefix: 'test/'
-  - name: github
-    id: bla
-    tagOnly: true
-    tagPrefix: 'test/bla/'
+    tagPrefix: 'testmod/v'
