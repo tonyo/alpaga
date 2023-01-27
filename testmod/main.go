@@ -14,6 +14,8 @@ import (
 	"go.opentelemetry.io/otel/trace"
 )
 
+type TestType string
+
 var tracer trace.Tracer
 
 func newExporter(w io.Writer) (sdktrace.SpanExporter, error) {
